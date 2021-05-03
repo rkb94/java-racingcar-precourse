@@ -1,3 +1,7 @@
 public enum RandomNoStatusEnum {
-    RUN, STOP
+    RUN, STOP;
+
+    public boolean isRun() {
+        return this.equals(RUN);
+    }
 }

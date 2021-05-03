@@ -15,7 +15,7 @@ public class RandomNoTest {
     }
 
     @Test
-    @DisplayName("랜덤 값 생성 후 전진, 멈춤 판단")
+    @DisplayName("랜덤 값 생성 후 전진, 멈춤 판단 테스트")
     void create_random_no_and_valid_run_and_stop_test() {
         RandomNo randomNo = new RandomNo();
         System.out.println("randomNo: " + randomNo.getNo());
@@ -27,5 +27,15 @@ public class RandomNoTest {
         }
 
         System.out.println("randomState: " + randomNo.getState());
+    }
+
+    @Test
+    @DisplayName("자동차가 n번 실행 하기 테스트 + 거리 출력 테스트")
+    void run_or_stop_N_cycle_test() {
+        Car car = new Car("testCar");
+        for (int i = 0; i < 5; i++) {
+            car.printResult();
+            car.startRandomRun();
+        }
     }
 }
