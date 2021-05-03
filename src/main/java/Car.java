@@ -16,11 +16,11 @@ public class Car {
         return distance;
     }
 
-    public void randomRun() {
+    public void startRandomRun() {
         this.randomNo = new RandomNo();
     }
 
-    public int advance() {
+    public int run() {
         this.distance = getDistance() + 1;
         return getDistance();
     }
