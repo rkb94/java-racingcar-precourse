@@ -5,4 +5,5 @@ public class ConstantUtil {
     public static final int RANDOM_NUMBER_MIN = 0;
     public static final int RUN_SEPARATION_NUMBER = 4;
     public static final char MINUS_CHAR = '-';
+    public static final char COMMA = ',';
 }
