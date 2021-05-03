@@ -10,15 +10,15 @@ public class CarTest {
 
     @BeforeEach
     void setUp() {
-        car = new Car();
+        car = new Car("testCar");
     }
 
     @Test
     @DisplayName("자동차 전진 기능 테스트")
     void run_car_test() {
-        assertThat(car.run()).isEqualTo(1);
-        assertThat(car.run()).isEqualTo(2);
-        assertThat(car.run()).isEqualTo(3);
+        assertThat(car.advance()).isEqualTo(1);
+        assertThat(car.advance()).isEqualTo(2);
+        assertThat(car.advance()).isEqualTo(3);
     }
 
 }
