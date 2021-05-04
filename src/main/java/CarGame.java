@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class CarGame {
     private Cars cars;
 
-
     private int count;
 
     public Cars getCars() {
