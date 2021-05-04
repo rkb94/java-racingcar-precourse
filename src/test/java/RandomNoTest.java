@@ -1,3 +1,6 @@
+import game.Car;
+import game.RandomNo;
+import game.RandomNoStatusEnum;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

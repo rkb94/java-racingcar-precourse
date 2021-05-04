@@ -1,3 +1,7 @@
+package game;
+
+import common.ConstantUtil;
+
 public class Car {
     private String name;
     private RandomNo randomNo;

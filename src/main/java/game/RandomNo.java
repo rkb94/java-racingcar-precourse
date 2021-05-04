@@ -1,3 +1,7 @@
+package game;
+
+import common.ConstantUtil;
+
 import java.util.Random;
 
 public class RandomNo {

@@ -1,3 +1,5 @@
+package common;
+
 public class ConstantUtil {
     public static final int DISTANCE_INITIAL_VALUE = 0;
     public static final int RUN_MOVE_VALUE = 1;
